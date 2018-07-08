@@ -15,13 +15,20 @@ node server.js
 yarn start
 ```
 
-# By SocialNerds
-* [SocialNerds.gr](https://www.socialnerds.gr/)
-* [YouTube](https://www.youtube.com/SocialNerdsGR)
-* [Facebook](https://www.facebook.com/SocialNerdsGR)
-* [Twitter](https://twitter.com/socialnerdsgr)
+![Login][images/login.png]
+![Loading][images/loading.png]
+![Rooms][images/rooms.png]
+![Chat][images/chat.png]
+
+
 
 ## Read more
 - [Medium article](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3)
 - [YouTube video](https://www.youtube.com/watch?v=6vcIW0CO07k)
 - [Scrimba lesson](https://scrimba.com/g/greactchatkit)
+
+# By SocialNerds
+* [SocialNerds.gr](https://www.socialnerds.gr/)
+* [YouTube](https://www.youtube.com/SocialNerdsGR)
+* [Facebook](https://www.facebook.com/SocialNerdsGR)
+* [Twitter](https://twitter.com/socialnerdsgr)
