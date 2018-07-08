@@ -6,13 +6,9 @@ const Store = window.require('electron').remote.require('electron-store');
 const store = new Store();
 
 class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: null
-    };
-  }
+  state = {
+    name: null
+  };
 
   componentDidMount() {
     let name = store.get('username');

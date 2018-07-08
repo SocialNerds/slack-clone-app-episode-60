@@ -34,10 +34,10 @@ class Chat extends Component {
         this.setState({ currentUser });
         this.getRooms();
       })
-      .catch(error => console.error('error', error))
+      .catch(error => console.error('error', error));
   } 
 
-  getRooms() {
+  getRooms = () => {
     this.state.currentUser.getJoinableRooms()
     .then(joinableRooms => {
         this.setState({
@@ -46,24 +46,24 @@ class Chat extends Component {
             loading: false
         })
     })
-    .catch(err => console.log('error on joinableRooms: ', err))
+    .catch(err => console.log('error on joinableRooms: ', err));
   }
   
   sendTypingEvent = () => {
     this.state.currentUser
       .isTypingIn({ roomId: this.state.roomId })
-      .catch(error => console.error('error', error))
+      .catch(error => console.error('error', error));
   }
 
   sendMessage = (text) => {
     this.state.currentUser.sendMessage({
       text,
       roomId: this.state.roomId,
-    })
+    });
   }
 
   subscribeToRoom = (roomId) => {
-    this.setState({ messages: [], loading: true })
+    this.setState({ messages: [], loading: true });
     this.state.currentUser.subscribeToRoom({
         roomId: roomId,
         hooks: {
@@ -93,7 +93,7 @@ class Chat extends Component {
         });
         this.getRooms();
     })
-    .catch(err => console.log('error on subscribing to room: ', err))
+    .catch(err => console.log('error on subscribing to room: ', err));
   }
   
   render() {
