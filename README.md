@@ -15,10 +15,10 @@ node server.js
 yarn start
 ```
 
-![Login][images/login.png]
-![Loading][images/loading.png]
-![Rooms][images/rooms.png]
-![Chat][images/chat.png]
+![Login](images/login.png)
+![Loading](images/loading.png)
+![Rooms](images/rooms.png)
+![Chat](images/chat.png)
 
 
 
