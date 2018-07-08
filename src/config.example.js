@@ -1,0 +1,3 @@
+const instanceLocator = '';
+
+export { instanceLocator };
