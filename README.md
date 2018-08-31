@@ -1,10 +1,10 @@
-# Slack App episode 59
+# Slack App episode 60
 Slack wanna be clone app using Electron, React and Chatkit.
 Watch the live video [here](https://youtu.be/Q_jtsyfJnZE).
 
 # Installation
 ```
-git clone https://github.com/SocialNerds/slack-clone-app-episode-59.git slack-app
+git clone https://github.com/SocialNerds/slack-clone-app-episode-60.git slack-app
 cd slack-app
 yarn install
 Sign up [here](https://pusher.com/chatkit)
